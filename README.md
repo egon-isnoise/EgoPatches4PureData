@@ -1,6 +1,7 @@
 # EgoPatches4PureData
 
 Some pure data patches for the less experienced users.
+All you need is to have Pure Data Vanilla already installed with the libraries Cyclone and Zexy.
 
 EgoArp6 is a simple arpeggiated synth on 4 octaves with 4 notes chords selector and controls for speed(speed), arp lenght(octave), tone, attack and decay.
 
