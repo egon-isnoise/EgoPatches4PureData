@@ -1,0 +1,19 @@
+#N canvas 675 231 955 646 12;
+#X obj 13 10 EgoArp6;
+#X obj 522 366 dac~;
+#X obj 183 366 EgoVerb6;
+#X obj 183 590 dac~;
+#X text 553 10 Activate the DSP \, select a chord and press;
+#X text 553 30 the ON/OFF button to start the sequencer.;
+#X text 343 400 Move PARAM 1 and PARAM 2;
+#X text 343 420 then turn up the volume to hear the effect.;
+#X text 343 440 Play with parameters to get the reverberation you want.
+;
+#X text 553 50 Play with parameters to get the sound you are after.
+;
+#X connect 0 0 2 0;
+#X connect 0 0 1 0;
+#X connect 0 1 2 1;
+#X connect 0 1 1 1;
+#X connect 2 0 3 0;
+#X connect 2 1 3 1;
